@@ -1,0 +1,1617 @@
+
+/* font google */
+/* font-family: 'Nunito', sans-serif; */
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+
+/* font-family: 'Poppins', sans-serif; */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+
+/* font-family: 'Open Sans', sans-serif; */
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap'); */
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --color: red;
+    --main-transition: all .5s;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+
+}
+
+
+
+/* start skils all */
+.skils {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: 5px solid #000;
+    border-bottom: 5px solid #000;
+}
+
+.skils > .container {
+    min-height: 100vh;
+    position: relative;
+}
+
+/* .none {
+    display: none;
+} */
+
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start skils 1 */
+.skils-1 {
+    font-family: Helvetica, sans-serif;
+    background: #101214;
+    transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+}
+
+.skils-1 .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.skils-1 .title {
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: cursive;
+}
+
+.skils-1 .progress-bars {
+    /* margin: 2em auto; */
+    padding: 1.5em;
+    color: #fff;
+    background: #111;
+    width: 700px;
+    /* box-shadow: 0 0 15px #050505; */
+    box-shadow: 0 0 15px #a39d9d;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.skils-1 .progress-bars h3 {
+    color: #a6a6a6;
+    font-weight: 400;
+    margin: .5em 0;
+    text-transform: capitalize;
+}
+
+.skils-1 .progress-bars li {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skils-1 .progress-bars .bar {
+    width: 85%;
+    height: .5em;
+    background: #111;
+    box-shadow: inset -1px -1px #5c5c5c, inset 1px 4px 8px #050505;
+    border-radius: 10px;
+    margin: 2em 0;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.skils-1 .progress-bars .progress {
+    background: linear-gradient(90deg, #305e9c, #70adff);
+    width: 0%;
+    height: 100%;
+    position: relative;
+    box-shadow: 0 0 3px #70adff;
+    transition: all 2s;
+    border-radius: inherit;
+    -webkit-border-radius: inherit;
+    -moz-border-radius: inherit;
+    -ms-border-radius: inherit;
+    -o-border-radius: inherit;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
+}
+
+/* width: 50%; */
+
+.skils-1 .progress-bars .progress::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 1em;
+    height: 100%;
+    background: #fff;
+    box-shadow: 0 0 20px #fff;
+    filter: blur(2px);
+    border-radius: inherit;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -webkit-border-radius: inherit;
+    -moz-border-radius: inherit;
+    -ms-border-radius: inherit;
+    -o-border-radius: inherit;
+    -webkit-filter: blur(2px);
+}
+
+.skils-1 .progress-bars .percentage {
+    font-weight: 700;
+    color: #f1f1f1;
+    text-shadow: 0 0 5px #305e9c;
+}
+
+
+
+
+
+/* end skils 1 */
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start skils 2 */
+.skils-2 {
+    background: #696969;
+}
+
+.skils-2 .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skils-2 .cont {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* .skils-2 .skill {
+    margin: 20px 0;
+} */
+
+.skils-2 .skill h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.skils-2 .skill h3 span {
+    color: var(--main-c);
+    font-size: 12px;
+    border: 1px solid #ccc;
+    padding: 3px 5px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.skils-2 .skill .the-progress {
+    height: 30px;
+    background-color: #eee;
+    position: relative;
+    overflow: hidden;
+    transition: var(--main-transition);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+}
+
+.skils-2 .skill .the-progress span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: var(--main-c, #2196f3);
+    transition: all calc(5s) linear;
+    -webkit-transition: all calc(5s) linear;
+    -moz-transition: all calc(5s) linear;
+    -ms-transition: all calc(5s) linear;
+    -o-transition: all calc(5s) linear;
+}
+
+
+/* end skils 2 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start skils 3 */
+
+/* .skils-3 {
+
+} */
+
+:root {
+    --main-color: #19c8fa;
+    --transparent-color-0f748fb3: #0f748fb3;
+    --color-hover-btn-b: #0000007e;
+    --back-color: #fff;
+    --color-box: #fff;
+    --color-box-2: #dddddd4a;
+    --color-white: white;
+    --color-font: #000;
+}
+
+.skils-3 .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.skils-3 .cont .name_skil > h3 {
+    color: var(--color-font, #000);
+    margin: 0 0 30px;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.skils-3 .cont .name_skil > p {
+    color: #777;
+    line-height: 2;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.skils-3 .cont .prog-holder {
+    margin-bottom: 40px;
+    background-color: var(--color-box);
+}
+
+.skils-3 .cont .prog-holder h4 {
+    margin-bottom: 15px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: var(--color-font);
+}
+
+.skils-3 .cont .prog-holder .prog {
+    background-color: #dedadc;
+    height: 30px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}    
+
+.skils-3 .cont .prog-holder .prog span {
+    display: block;
+    background-color: var(--main-color, #19c8fa);
+    height: 100%;
+    position: relative;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    animation-name: s3late-skills;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    transition: all calc(5s) linear;
+    -webkit-transition: all calc(5s) linear;
+    -moz-transition: all calc(5s) linear;
+    -ms-transition: all calc(5s) linear;
+    -o-transition: all calc(5s) linear;
+}    
+
+@keyframes s3late-skills {
+    
+    20% {
+        width: 20%;
+    }
+
+    40% {
+        width: 40%;
+    }
+
+    60% {
+        width: 60%;
+    }
+
+    80% {
+        width: 80%;
+    }
+}
+
+.skils-3 .cont .prog-holder .prog span::before {
+    content: attr(data-progress);
+    position: absolute;
+    background-color: #000;
+    color: #fff;
+    top: -40px;
+    right: -19px;
+    padding: 4px 0;
+    width: 40px;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+
+    animation-name: s3late-before;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+
+
+@keyframes s3late-before {
+    
+    20% {
+        content: attr(data-progress20);
+    }
+
+    40% {
+        content: attr(data-progress40);
+    }
+
+    60% {
+        content: attr(data-progress60);
+    }
+
+    80% {
+        content: attr(data-progress80);
+    }
+}
+
+.skils-3 .cont .prog-holder .prog span::after {
+    content: "";
+    position: absolute;
+    right: -8px;
+    top: -15px;
+    border: 8px solid;
+    border-color: #000 transparent transparent;
+}
+
+
+
+/* end skils 3 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start skils 4 */
+
+
+/* .skils-3 {
+
+} */
+
+:root {
+    --main-color: #19c8fa;
+    --transparent-color-0f748fb3: #0f748fb3;
+    --color-hover-btn-b: #0000007e;
+    --back-color: #fff;
+    --color-box: #fff;
+    --color-box-2: #dddddd4a;
+    --color-white: white;
+    --color-font: #000;
+}
+
+.skils-4 .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.skils-4 .cont .name_skil > h3 {
+    color: var(--color-font, #000);
+    margin: 0 0 30px;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.skils-4 .cont .name_skil > p {
+    color: #777;
+    line-height: 2;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.skils-4 .cont .prog-holder {
+    margin-bottom: 40px;
+    background-color: var(--color-box);
+}
+
+.skils-4 .cont .prog-holder h4 {
+    margin-bottom: 15px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: var(--color-font);
+}
+
+.skils-4 .cont .prog-holder .prog {
+    background-color: #dedadc;
+    height: 30px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}    
+
+.skils-4 .cont .prog-holder .prog span {
+    display: block;
+    background-color: var(--main-color, #19c8fa);
+    height: 100%;
+    width: 0%;
+    position: relative;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+    transition: all calc(5s) linear;
+    -webkit-transition: all calc(5s) linear;
+    -moz-transition: all calc(5s) linear;
+    -ms-transition: all calc(5s) linear;
+    -o-transition: all calc(5s) linear;
+}
+
+/* .skils-4 .cont .prog-holder .prog span.active {
+    animation-name: s4late-skills;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+} */
+
+@keyframes s4late-skills {
+    
+    0% {
+        width: 0%;
+    }
+    
+    20% {
+        width: 20%;
+    }
+
+    40% {
+        width: 40%;
+    }
+
+    60% {
+        width: 60%;
+    }
+
+    80% {
+        width: 80%;
+    }
+
+    100% {
+        width: var(--sk4);
+        max-width: var(--sk4);
+    }
+}
+
+.skils-4 .cont .prog-holder .prog span::before {
+    content: attr(data-progress0);
+    position: absolute;
+    background-color: #000;
+    color: #fff;
+    top: -40px;
+    right: -19px;
+    padding: 4px 0;
+    width: 40px;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.skils-4 .cont .prog-holder .prog span.active::before {
+    content: attr(data-progress);
+    animation-name: s4late-before;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+
+
+@keyframes s4late-before {
+    0% {
+        content: attr(data-progress0);
+    }
+    
+    20% {
+        content: attr(data-progress20);
+    }
+
+    40% {
+        content: attr(data-progress40);
+    }
+
+    60% {
+        content: attr(data-progress60);
+    }
+
+    80% {
+        content: attr(data-progress80);
+    }
+
+    100% {
+        content: attr(data-progress);
+    }
+}
+
+.skils-4 .cont .prog-holder .prog span::after {
+    content: "";
+    position: absolute;
+    right: -8px;
+    top: -15px;
+    border: 8px solid;
+    border-color: #000 transparent transparent;
+}
+
+
+
+/* end skils 4 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start skils 5 */
+
+.skils-5 {
+    background: #4070f4;
+    font-family: 'Poppins', sans-serif;
+}
+
+.skils-5 .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skils-5 .cont {
+    max-width: 500px;
+    width: 100%;
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.skils-5 .cont .skill-box {
+    width: 100%;
+    margin: 25px 0;
+}
+
+.skils-5 .cont .skill-box .title {
+    text-transform: capitalize;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+.skils-5 .cont .skill-box .skill-bar {
+    width: 100%;
+    height: 8px;
+    background: rgba(0, 0, 0, 0.1);
+    margin-top: 6px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.skils-5 .cont .skill-box .skill-per {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 90%;
+    background: #4070f4;
+    opacity: 0;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.skils-5 .cont .skill-box .skill-per.active {
+    animation: s5progress .5s ease-in-out forwards;
+    -webkit-animation: s5progress .5s ease-in-out forwards;
+}
+
+@keyframes s5progress {
+    0% {
+        width: 0;
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.skils-5 .cont .skill-box .skill-per.active.css {
+    width: 70%;
+    animation-delay: 0.1s;
+}
+
+.skils-5 .cont .skill-box .skill-per.active.javascript {
+    width: 50%;
+    animation-delay: 0.2s;
+}
+
+.skils-5 .cont .skill-box .skill-per.active.nodejs {
+    width: 30%;
+    animation-delay: 0.3s;
+}
+
+.skils-5 .cont .skill-box .skill-per .tooltip {
+    position: absolute;
+    right: -14px;
+    top: -28px;
+    font-size: 9px;
+    font-weight: 500;
+    color: #fff;
+    padding: 2px 6px;
+    background: #4070f4;
+    z-index: 1;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.skils-5 .cont .skill-box .skill-per .tooltip::before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    height: 10px;
+    width: 10px;
+    z-index: -1;
+    background: #4070f4;
+    transform: translateX(-50%) rotate(45deg);
+    -webkit-transform: translateX(-50%) rotate(45deg);
+    -moz-transform: translateX(-50%) rotate(45deg);
+    -ms-transform: translateX(-50%) rotate(45deg);
+    -o-transform: translateX(-50%) rotate(45deg);
+}
+
+
+
+/* end skils 5 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start skils 6 */
+
+.skils-6 {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ececec;
+}
+
+.skils-6 .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skils-6 .cont {
+    width: 30em;
+    color: #777;
+}
+
+.skils-6 .cont h1 {
+    font-family: cursive;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.skils-6 .cont .bars h4 {
+    font-weight: 400;
+    display: inline-block;
+    margin: .3em;
+}
+
+.skils-6 .cont .bars li {
+    margin: 1.2em 0;
+}
+
+.skils-6 .cont .bars .bar {
+    background-color: #ececec;
+    display: block;
+    border: 1px solid 8px #ececec;
+    overflow: hidden;
+    height: 1.8em;
+    position: relative;
+    box-sizing: border-box;
+    box-shadow: -6px -6px 7px rgba(255, 255, 255, .5), 7px 7px 7px rgba(70, 70, 70, .12), inset -6px -6px 7px rgba(255, 255, 255, .5), inset 7px 7px 7px rgba(70, 70, 70, .12);
+    border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+}
+
+.skils-6 .cont .bars .prog {
+    height: 75%;
+    width: 0;
+    float: left;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin: 0 0.3em;
+    border-radius: 1em;
+    transform: translateY(-50%);
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+}
+
+.skils-6 .cont .bars .prog.active {
+    transition: all 2s;
+    animation: s6fill 1s ease-in-out;
+    -webkit-animation: s6fill 1s ease-in-out;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
+}
+
+.skils-6 .cont .bars li:nth-child(1) .prog.active {
+    width: 90%;
+    background: linear-gradient(90deg, #ffaf75 0%, #ff720d 100%);
+}
+
+.skils-6 .cont .bars li:nth-child(2) .prog.active {
+    width: 75%;
+    background: linear-gradient(90deg, #7eb9f1 0%, #2187e7 100%);
+}
+
+.skils-6 .cont .bars li:nth-child(3) .prog.active {
+    width: 50%;
+    background: linear-gradient(90deg, #ffaf75 0%, #ffe30d 100%);
+}
+
+.skils-6 .cont .bars li:nth-child(4) .prog.active {
+    width: 30%;
+    background: linear-gradient(90deg, #ff7575 0%, #ff0d0d 100%);
+}
+
+.skils-6 .cont .bars li:nth-child(5) .prog.active {
+    width: 80%;
+    background: linear-gradient(90deg, #cc75ff 0%, #a60dff 100%);
+}
+
+@keyframes s6fill {
+    0% {
+        width: 0;
+    }
+}
+
+
+/* end skils 6 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start skils 7 */
+
+.skils-7 {
+    font-family: 'Open Sans', sans-serif; 
+    background-color: #333;
+}
+
+.skils-7 .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skils-7 .wrap {
+    max-width: 60%;
+}
+
+.skils-7 .wrap .bar {
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 16px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.skils-7 .wrap .bar .thumb {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 10px;
+    background-color: #000;
+    margin-top: 20px;
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+}
+
+.skils-7 .wrap .bar span {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: linear-gradient(to left, #ff0057, #ffeb3b);
+    transition: all 5s linear;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    -webkit-transition: all 5s linear;
+    -moz-transition: all 5s linear;
+    -ms-transition: all 5s linear;
+    -o-transition: all 5s linear;
+}
+
+.skils-7 .wrap .bar span.active {
+    animation: s7span 3s linear forwards;
+    transition: all 5s linear;
+    -webkit-transition: all 5s linear;
+    -moz-transition: all 5s linear;
+    -ms-transition: all 5s linear;
+    -o-transition: all 5s linear;
+    -webkit-animation: s7span 3s linear forwards;
+}
+
+@keyframes s7span {
+    0% {
+        width: 0%;
+    }
+}
+
+.skils-7 .wrap .bar:nth-child(1) span.active {
+    width: 60%;
+}
+
+.skils-7 .wrap .bar:nth-child(2) span.active {
+    width: 80%;
+}
+
+.skils-7 .wrap .bar:nth-child(3) span.active {
+    width: 40%;
+}
+
+.skils-7 .wrap .bar:nth-child(4) span.active {
+    width: 90%;
+}
+
+.skils-7 .wrap .bar abbr {
+    text-decoration: none;
+    width: 50px;
+    display: inline-block;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    position: absolute;
+    top: 30px;
+    left: 0%;
+    margin-left: -5px;
+    z-index: 1;
+    background: linear-gradient(to left, #ff0057, #ffe007);
+    box-shadow: 0 5px 30px rgb(255 0 87 / 50%), 0 5px 30px rgb(255 255 59 / 50%);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.skils-7 .wrap .bar abbr.active {
+    animation: s7abbr 3s linear forwards;
+    -webkit-animation: s7abbr 3s linear forwards;
+}
+
+@keyframes s7abbr {
+    0% {
+        left: 0%;
+    }
+}
+
+.skils-7 .wrap .bar:nth-child(1) abbr.active {
+    left: 60%;
+}
+
+.skils-7 .wrap .bar:nth-child(2) abbr.active {
+    left: 80%;
+}
+
+.skils-7 .wrap .bar:nth-child(3) abbr.active {
+    left: 40%;
+}
+
+.skils-7 .wrap .bar:nth-child(4) abbr.active {
+    left: 90%;
+}
+
+
+
+/* end skils 7 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start skils 8 */
+
+.skils-8 {
+    font-family: 'Poppins', sans-serif;
+    background: #0a2b3c;
+}
+
+.skils-8 .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skils-8 .cont {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    box-shadow: -1px -1px 2px rgba(255, 255, 255, .25), inset 2px 2px 5px rgba(255, 255, 255, .25), 8px 30px 30px rgba(0, 0, 0, 0.4), inset -2px -2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.skils-8 .cont h2 {
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #1f9cff;
+    text-transform: capitalize;
+    cursor: default;
+}
+
+.skils-8 .cont .skills {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding-right: 10px;
+    box-shadow: -1px -1px 2px rgba(255, 255, 255, .25), inset 2px 2px 5px rgba(255, 255, 255, .25), 8px 30px 30px rgba(0, 0, 0, 0.4), inset -2px -2px 5px rgba(0, 0, 0, 0.3);
+    transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+}
+
+.skils-8 .cont:hover .skills {
+    opacity: .2;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
+
+.skils-8 .cont .skills:hover {
+    opacity: 1;
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+}
+
+.skils-8 .cont .skills h3 {
+    min-width: 180px;
+    text-align: left;
+    padding-right: 20px;
+    padding-left: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    cursor: default;
+}
+
+.skils-8 .cont .skills .rating {
+    position: relative;
+    display: flex;
+    margin: 10px 0;
+    flex-direction: row-reverse;
+}
+
+.skils-8 .cont .skills .rating input {
+    position: relative;
+    width: 20px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    appearance: none;
+    overflow: hidden;
+}
+
+.skils-8 .cont .skills .rating input::before {
+    content: "\f005";
+    position: absolute;
+    /* font-family: fontAwesome; */
+    font-family: "Font Awesome 5 Free";
+    font-size: 34px;
+    font-weight: 900;
+    left: 4px;
+    color: #030b0f;
+    transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+}
+
+.skils-8 .cont .skills .rating input:nth-child(2n+1):before {
+    right: 4px;
+    left: initial;
+}
+
+.skils-8 .cont .skills .rating input:hover ~ input::before,
+.skils-8 .cont .skills .rating input:hover::before,
+.skils-8 .cont .skills .rating input:checked ~ input::before,
+.skils-8 .cont .skills .rating input:checked::before {
+    color: #1f9cff;
+}
+
+
+
+
+/* end skils 8 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start skils 9 */
+
+.skils-9 {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #000;
+}
+
+.skils-9 .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.skils-9 .scroll-down-space {
+    text-align: center;
+    color: #fff;
+    font-family: cursive;
+    text-transform: capitalize;
+}
+
+.skils-9 .cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skils-9 .progress-card {
+    display: inline-block;
+    text-align: center;
+}
+
+.skils-9 .progress-card h5 {
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.skils-9 .progress-circle {
+    position: relative;
+    background: transparent;
+    border: #1b1b1b 8px solid;
+    width: 8em;
+    height: 8em;
+    overflow: hidden;
+    margin: 1em;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.skils-9 .progress {
+    width: 8em;
+    height: 7.1em;
+    position: absolute;
+    bottom: -120%;
+    background: linear-gradient(0deg, #335bf4 0%, #16ff86 100%);
+    transition: all 2s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
+}
+
+.skils-9 .progress-content {
+    /* background: linear-gradient(0deg, #080808 0%, #111111 100%); */
+    width: 7.6em;
+    height: 7.6em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    z-index: 1;
+    border-radius: 100%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.skils-9 .progress-content h5 {
+    font-size: 2em;
+    font-weight: 500;
+}
+
+
+/* end skils 9 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start skils 10 */
+
+.skils-10 {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to left, #a445b2, #fa4299);
+}
+
+.skils-10 .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skils-10 .wrapper {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skils-10 .wrapper .card {
+    /* width: calc(33% - 20px); */
+    flex: 1 1 30%;
+    background: #fff;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.skils-10 .wrapper .card .circle {
+    overflow: hidden;
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border: 8px solid #fa4299;
+    cursor: default;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.skils-10 .wrapper .card .circle .bar {
+    position: absolute;
+    height: 110%;
+    width: 110%;
+    background: linear-gradient(0deg, #a445b2, #fa4299);
+    border-radius: 50%;
+    left: 50%;
+    z-index: 1;
+    bottom: -200%;
+    box-shadow: 0px 0px 20px 20px #fa4299;
+    transition: var(--main-transition);
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+}
+
+.skils-10 .wrapper .card .circle .bar.active {
+    animation: s10bar 3s linear forwards;
+    -webkit-animation: s10bar 2s linear forwards;
+}
+
+@keyframes s10bar {
+    0% {
+        bottom: -200%;
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        bottom: 0%;
+    }
+}
+
+.skils-10 .wrapper .card .circle .box,
+.skils-10 .wrapper .card .circle .box span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.skils-10 .wrapper .card .circle .box {
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    transition: var(--main-transition);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+}
+
+.skils-10 .wrapper .card .circle:hover .box {
+    transform: translate(-50%, -50%) scale(1.05);
+    -webkit-transform: translate(-50%, -50%) scale(1.05);
+    -moz-transform: translate(-50%, -50%) scale(1.05);
+    -ms-transform: translate(-50%, -50%) scale(1.05);
+    -o-transform: translate(-50%, -50%) scale(1.05);
+}
+
+.skils-10 .wrapper .card .circle .box span {
+    font-size: 38px;
+    font-weight: 600;
+    font-family: sans-serif;
+    transition: var(--main-transition);
+    transform: translate(-45%, -50%);
+    -webkit-transform: translate(-45%, -50%);
+    -moz-transform: translate(-45%, -50%);
+    -ms-transform: translate(-45%, -50%);
+    -o-transform: translate(-45%, -50%);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+}
+
+.skils-10 .wrapper .card .circle:hover .box span {
+    transform: translate(-50%, -50%) scale(1.05);
+    -webkit-transform: translate(-45%, -50%) scale(1.09);
+    -moz-transform: translate(-50%, -50%) scale(1.05);
+    -ms-transform: translate(-50%, -50%) scale(1.05);
+    -o-transform: translate(-50%, -50%) scale(1.05);
+}
+
+.skils-10 .wrapper .card .circle .box span,
+.skils-10 .wrapper .card .text {
+    background: linear-gradient(to left, #a445b2, #fa4299);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.skils-10 .wrapper .card .circle .box span.active {
+    animation: s10span 3s linear forwards;
+    -webkit-animation: s10span 3.5s linear forwards;
+}
+
+@keyframes s10span {
+    0% {
+        top: 0%;
+    }
+
+    100% {
+        top: 50%;
+        background: #fff;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+.skils-10 .wrapper .card .text {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+/* end skils 10 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start skils 11 */
+
+.skils-11 {
+    font-family: 'Poppins', sans-serif;
+    background: #dde6f0;
+}
+
+.skils-11 .container {
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+.skils-11 .circular {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    transform: scale(2);
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -ms-transform: scale(2);
+    -o-transform: scale(2);
+}
+
+.skils-11 .circular .inner {
+    /* display: none; */
+    position: absolute;
+    z-index: 6;
+    top: 50%;
+    left: 50%;
+    height: 80px;
+    width: 80px;
+    margin: -40px 0 0 -40px;
+    background: #dde6f0;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.skils-11 .circular .numb {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 10;
+    font-size: 18px;
+    font-weight: 500;
+    color: #4159d0;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.skils-11 .circular .bar {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    clip: rect(0px, 100px, 100px, 50px);
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.skils-11 .circular .circle .bar .progress {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    clip: rect(0px, 50px, 100px, 0px);
+    background: #4158d0;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.skils-11 .circle .left .progress.active  {
+    z-index: 1;
+    animation: s10left 4s linear both;
+    -webkit-animation: s10left 4s linear both;
+}
+
+@keyframes s10left {
+    100% {
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+}
+}
+
+.skils-11 .circle .right {
+    z-index: 3;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.skils-11 .circle .right .progress.active {
+    animation: s10right 4s linear both;
+    -webkit-animation: s10right 4s linear both;
+    animation-delay: 4s;
+}
+
+@keyframes s10right {
+    100% {
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+}
+}
+
+
+
+/* end skils 11 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
